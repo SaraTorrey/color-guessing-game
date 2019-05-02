@@ -2,10 +2,20 @@ body {
     background-color: #232323;
 }
 
+h1{
+    color: white;
+}
+
 .square {
     width: 30%;
     background: purple;
-    padding-bottom: 30%
+    padding-bottom: 30%;
     float: left;
-    margin: 1.66%
+    margin: 1.66%;
+    border-radius: 10%;
+}
+
+#container {
+    margin: 0px ;
+    max-width: 600px;
 }
