@@ -1,9 +1,16 @@
 body {
     background-color: #232323;
+    margin: 0;
+    font-family: 'Avenir';
 }
 
 h1{
     color: white;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    background: steelblue;
+    margin: 0;
 }
 
 .square {
@@ -24,4 +31,9 @@ h1{
     background: white;
     height: 30px;
     text-align: center;
+}
+
+.selected {
+    background: blue;
+
 }
